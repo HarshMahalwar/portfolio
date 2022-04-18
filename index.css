@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.left-50 {
+    left: 50%;
+}
+.right-50 {
+    right: 50%;
+}
+.top-50 {
+    top: 50%;
+}
+
+
+
+.-z-1 {
+    z-index: -1;
+}
+
+.secondary-title {
+    @apply text-3xl font-bold;
+}
+
+.secondary-normal {
+    @apply text-3xl font-bold;
+}
+
+.secondary-normal:hover {
+    @apply text-5xl font-bold;
+}
+
+.btn-magic:hover {
+    @apply bg-input;
+}
+
+.hey-s:hover {
+    @apply text-7xl font-bold;
+}
+
+.secondary-title::before {
+    content: "";
+    @apply block w-12 h-2 bg-theme rounded-full mb-1;
+}
+
+.section-paragraph {
+    @apply text-secondary my-6 w-full max-w-3xl;
+}
+
+.main-text:hover {
+    @apply text-xl font-bold;
+}
+
+.nav-paragraph:hover {
+    @apply font-bold;
+}
+
+
+.badge {
+    @apply px-4 py-2 text-sm rounded bg-badge;
+}
+
+.badge-rounded {
+    @apply px-4 py-2 text-sm rounded-full bg-badge;
+}
+
+.badge:hover {
+    @apply px-4 py-2 font-bold rounded bg-nav;
+}
+
+[id] {
+scroll-margin-top: 100px;
+}
+
+.left-percentage {
+    left: 5%;
+}
+
+.h-screen-partial {
+    height: 80vh;
+}
+
+.nav-dot {
+    transition: background 2ms, border-color 2ms;
+}
+
+
+.circle-uni:hover {
+    @apply border-theme bg-theme;
+}
+
+
+.nav-dot:hover span {
+    @apply border-theme bg-theme;
+}
+
+.rng:hover {
+    @apply border-theme bg-theme;
+}
